@@ -36,11 +36,21 @@ Investigate alternatives to dense matrix multiplications in LLMs, starting with 
 - Connected to Wierzbicka's Natural Semantic Metalanguage (~65 universal primes)
 
 ## Key Documents
+- **`paper_plan.md`** — FOCUSED PAPER PLAN: Learnable Spectral Word Representations (START HERE)
 - `proposal_frequency_domain.md` — Detailed proposal for Track A
 - `proposal_graph_neural_model.md` — Detailed proposal for Track B
 - `research_roadmap.md` — Full master's plan (embedding → attention → FF → output replacement)
 - `breakthrough_resonance_model.md` — Visionary resonance-based semantic computing framework
 - `experiments/` — Experiment folders organized by date (YYYY-MM-DD_description/)
+
+## Paper Focus (Decided Session 1)
+The paper centers on a **three-way comparison**:
+- A) Dense baselines (Word2Vec/GloVe)
+- B) Transform: apply FFT to dense embeddings (what survives?)
+- C) **Native spectral model** — learn directly in frequency domain (what EMERGES?)
+- The GAP between B and C is the main contribution: what do vectors LOSE that frequencies preserve?
+- Semantic primitives discovery: do learned frequencies map to Wierzbicka's linguistic universals?
+- The native learnable model is the novelty — not just distilling from vectors
 
 ## Experiment Structure
 Experiments are organized in `experiments/` with folders named by date:
