@@ -1,0 +1,13 @@
+# TensorPool job config — CBOW baseline training
+# Run: tp job push job_cbow.toml
+
+instance_type = "1xH200"
+
+commands = [
+    "pip install -r requirements.txt",
+    "python train_cbow.py --dataset text8 --dim 300 --window 5 --negatives 5 --epochs 5 --batch-size 512",
+]
+
+outputs = ["results/"]
+
+ignore = [".venv", "__pycache__/", ".git", "*.pyc", "data/text8*"]

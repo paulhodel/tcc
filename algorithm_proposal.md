@@ -1,4 +1,4 @@
-# Algorithm Proposal: Spectral Skip-Gram Training
+if# Algorithm Proposal: Spectral Skip-Gram Training
 
 **Date:** 2026-02-20
 **Status:** Proposed — to be validated in experiments
